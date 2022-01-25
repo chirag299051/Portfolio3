@@ -17,7 +17,7 @@ import rest from "./assets/rest.png";
 import ionic from "./assets/ionic.png";
 import fire from "./assets/fire.png";
 import google from "./assets/google.png";
-import redux from "./assets/redux.png";
+import redux from "./assets/redux.jpeg";
 import npm from "./assets/npm.png";
 
 import movieDBv2 from "./assets/movieDB-v2.png";
