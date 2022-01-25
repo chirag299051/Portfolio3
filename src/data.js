@@ -17,6 +17,8 @@ import rest from "./assets/rest.png";
 import ionic from "./assets/ionic.png";
 import fire from "./assets/fire.png";
 import google from "./assets/google.png";
+import redux from "./assets/redux.png";
+import npm from "./assets/npm.png";
 
 import movieDBv2 from "./assets/movieDB-v2.png";
 import budget from "./assets/budget.PNG";
@@ -42,14 +44,16 @@ export const skills = [
   { id: 8, name: "jQuery", img: jquery },
   { id: 9, name: "Node js", img: node },
   { id: 10, name: "Ionic", img: ionic },
-  { id: 11, name: "REST API", img: rest },
-  { id: 12, name: "Github", img: github },
-  { id: 12, name: "Firebase", img: fire },
-  { id: 12, name: "Google Cloud Platform", img: google },
-  { id: 13, name: "MySQL", img: mysql },
-  { id: 14, name: "MongoDB", img: mongodb },
-  { id: 15, name: "WordPress", img: wp },
-  { id: 16, name: "PHP", img: php },
+  { id: 10, name: "Redux", img: redux },
+  { id: 11, name: "npm", img: npm },
+  { id: 12, name: "REST API", img: rest },
+  { id: 13, name: "Github", img: github },
+  { id: 14, name: "Firebase", img: fire },
+  { id: 15, name: "Google Cloud Platform", img: google },
+  { id: 16, name: "MySQL", img: mysql },
+  { id: 17, name: "MongoDB", img: mongodb },
+  { id: 18, name: "WordPress", img: wp },
+  { id: 19, name: "PHP", img: php },
 ];
 
 export const projects = [
