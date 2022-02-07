@@ -5,6 +5,7 @@ import MainNavbar from "./MainNavbar";
 import pic from "./assets/pic.jpg";
 import GithubSearch from "./GithubSearch";
 import GithubModal from "./GithubModal";
+import dew from "./assets/dew.png";
 
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
@@ -40,10 +41,13 @@ const Net = (props) => {
       <GithubModal />
       <div className="title">
         <b>CHIRAG SINGH</b>
-        <div style={{ fontSize: ".65em", color: "red" }}>
-          FRONT-END DEVELOPER
+        <div className="react">
+          REACT DEVELOPER
         </div>
       </div>
+      <div className="dew-wrapper">
+          <img src={dew} className="dew" />
+        </div>
       <div className="dp-div">
         <img src={pic} className="dp" />
       </div>

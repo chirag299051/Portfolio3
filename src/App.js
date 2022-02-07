@@ -37,7 +37,7 @@ const App = () => {
           dimension4: country_code,
           dimension5: postal,
         });
-        if (IPv4 !== "71.104.23.145") {
+        if (IPv4 !== "49.36.184.220") {
           emailjs
             .send("default_service", "template_xlbxfbj", { ...result })
             .then(

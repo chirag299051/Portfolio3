@@ -144,9 +144,32 @@ code {
   color: var(--color-w);
   padding-left: 7%;
   padding-bottom: 20px;
-  font-size: 2.5em;
+  font-size: 2.8em;
   position: absolute;
   top: 700px;
+}
+
+.title .react {
+  font-family: "Bangers", cursive;
+  font-size: 0.9em;
+  color: red;
+  letter-spacing: 6px;
+}
+
+.dew-wrapper {
+  /* position: relative; */
+  top: 605px;
+  left: 500px;
+}
+
+.dew-wrapper p {
+  font-size: 0.5em;
+  display: inline;
+}
+
+.dew-wrapper .dew {
+  width: 120px;
+  display: inline;
 }
 
 .dp-div {

@@ -52,8 +52,8 @@ export const skills = [
   { id: 15, name: "Google Cloud Platform", img: google },
   { id: 16, name: "MySQL", img: mysql },
   { id: 17, name: "MongoDB", img: mongodb },
-  { id: 18, name: "WordPress", img: wp },
-  { id: 19, name: "PHP", img: php },
+  // { id: 18, name: "WordPress", img: wp },
+  // { id: 19, name: "PHP", img: php },
 ];
 
 export const projects = [
