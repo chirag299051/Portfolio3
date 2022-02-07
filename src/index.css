@@ -157,14 +157,8 @@ code {
 }
 
 .dew-wrapper {
-  /* position: relative; */
   top: 605px;
   left: 500px;
-}
-
-.dew-wrapper p {
-  font-size: 0.5em;
-  display: inline;
 }
 
 .dew-wrapper .dew {
@@ -403,7 +397,7 @@ code {
   .form {
     margin-left: auto;
     left: 0%;
-    top: 200%;
+    top: 130%;
     transform: scale(0.7, 0.7);
   }
 
@@ -413,6 +407,16 @@ code {
 
   .title {
     top: 500px;
+  }
+
+  .dew-wrapper {
+    top: 531px;
+    left: 225px;
+    width: 100px;
+  }
+
+  .about {
+    padding: 120px 45px;
   }
 
   .skills {
@@ -431,6 +435,10 @@ code {
   .js-project a h1 {
     font-size: 1.5rem;
     padding-top: 10px;
+  }
+
+  .btn-project {
+    border-radius: 7px;
   }
 
   .btn-project:hover {
