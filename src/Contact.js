@@ -49,7 +49,7 @@ const Contact = () => {
 
       <div className="contact-footer">
         <p>
-          Copyright © 2021 - <a href="http://chirag9.com">Chirag Singh</a>
+          Copyright © 2022 - <a href="http://chirag9.com">Chirag Singh</a>
         </p>
       </div>
     </section>

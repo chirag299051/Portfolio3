@@ -389,7 +389,7 @@ code {
   color: teal;
   transition: all 0.1s ease-in-out;
 }
-.contact p a:hover {
+.contact p:hover a {
   color: red;
 }
 
