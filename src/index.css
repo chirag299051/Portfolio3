@@ -30,6 +30,17 @@ code {
   width: 100%;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("./assets/menu.svg") !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: black !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+
 .navbar-dark .navbar-nav .nav-link.hvr-underline-from-left {
   color: var(--color-w);
   opacity: 0.8;
@@ -159,6 +170,7 @@ code {
 .dew-wrapper {
   top: 605px;
   left: 500px;
+  width: 200px;
 }
 
 .dew-wrapper .dew {

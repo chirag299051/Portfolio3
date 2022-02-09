@@ -31,11 +31,13 @@ export const AppProvider = ({ children }) => {
   // const [initialLoad, setInitialLoad] = useState(false);
 
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [uid, setUid] = useState();
   // const [repos, setRepos] = useState([]);
 
   const search = async (e, uid) => {
     e.preventDefault();
+    setLoading(true);
     console.log("UID: ", uid);
     if (uid === "") setUid("chirag299051");
     setUid(uid);
@@ -44,6 +46,7 @@ export const AppProvider = ({ children }) => {
     // const response = await fetch(userUrl + uid);
     // const result = await response.json();
     setShowModal(true);
+    setLoading(false);
   };
   const handleClose = () => {
     setShowModal(false);
@@ -54,6 +57,8 @@ export const AppProvider = ({ children }) => {
       value={{
         uid,
         showModal,
+        loading,
+        setLoading,
         search,
         setShowModal,
         handleClose,

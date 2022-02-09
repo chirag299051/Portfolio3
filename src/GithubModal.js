@@ -7,14 +7,14 @@ import ReactLoading from "react-loading";
 
 const GithubModal = () => {
   const userUrl = "https://api.github.com/users/";
-  const { showModal, setShowModal, handleClose } = useContext(Context);
+  const { showModal, setShowModal, handleClose, loading, setLoading } = useContext(Context);
   const { uid } = useContext(Context);
   console.log(uid);
   const { result: user_, error } = useFetch(userUrl, uid, false);
   const { result: repos_ } = useFetch(userUrl, uid, true);
   const [user, setUser] = useState(null);
   const [repos, setRepos] = useState(null);
-  const [loading, setLoading] = useState(true);
+  
   // const [error, setError] = useState(null);
 
   console.log("Error :", error);

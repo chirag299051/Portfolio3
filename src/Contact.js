@@ -30,7 +30,7 @@ const Contact = () => {
           href="https://www.facebook.com/profile.php?id=100018150765130"
           className="hvr-sweep-to-right-white btn-lg btn-black"
         >
-          <span>Meta</span>
+          <span>Facebook</span>
         </a>
         <a
           href="https://www.instagram.com/chirag299051/"

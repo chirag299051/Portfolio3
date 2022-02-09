@@ -11,7 +11,7 @@ const Skill = ({ id, img, name }) => {
       style={{
         // border: "10px",
         display: "inline-block",
-        margin: "50px 20px",
+        margin: "40px 20px",
         position: "relative",
       }}
       onMouseEnter={() => setShow(true)}

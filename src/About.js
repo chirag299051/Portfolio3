@@ -30,7 +30,7 @@ const About = () => {
       <section style={{ margin: "100px 0px" }}>
         <h1 style={{ color: "#d6dcff" }}>Skills</h1>
         <div className="skills">
-          <div style={{ margin: "auto" }}>
+          <div style={{ margin: "auto",  display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center'}}>
             {skills.map((skill) => {
               return <Skill key={skill.id} {...skill} />;
             })}
