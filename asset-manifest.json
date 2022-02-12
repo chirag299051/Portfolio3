@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio3/static/css/main.383d5883.chunk.css",
-    "main.js": "/Portfolio3/static/js/main.428ad511.chunk.js",
-    "main.js.map": "/Portfolio3/static/js/main.428ad511.chunk.js.map",
+    "main.js": "/Portfolio3/static/js/main.d82f3322.chunk.js",
+    "main.js.map": "/Portfolio3/static/js/main.d82f3322.chunk.js.map",
     "runtime-main.js": "/Portfolio3/static/js/runtime-main.53faddf9.js",
     "runtime-main.js.map": "/Portfolio3/static/js/runtime-main.53faddf9.js.map",
     "static/css/2.818011ed.chunk.css": "/Portfolio3/static/css/2.818011ed.chunk.css",
@@ -33,8 +33,10 @@
     "static/media/index.css": "/Portfolio3/static/media/menu.cd4589e9.svg",
     "static/media/mongodb.153b7b44.svg": "/Portfolio3/static/media/mongodb.153b7b44.svg",
     "static/media/movie.4971556a.PNG": "/Portfolio3/static/media/movie.4971556a.PNG",
+    "static/media/movie3.5315c810.png": "/Portfolio3/static/media/movie3.5315c810.png",
     "static/media/movieDB-v2.5aafbce6.png": "/Portfolio3/static/media/movieDB-v2.5aafbce6.png",
     "static/media/mysql.e5a509a5.svg": "/Portfolio3/static/media/mysql.e5a509a5.svg",
+    "static/media/next.c598b80e.png": "/Portfolio3/static/media/next.c598b80e.png",
     "static/media/node.6f01b9a1.png": "/Portfolio3/static/media/node.6f01b9a1.png",
     "static/media/php.6818a489.png": "/Portfolio3/static/media/php.6818a489.png",
     "static/media/pic.277745e6.jpg": "/Portfolio3/static/media/pic.277745e6.jpg",
@@ -51,6 +53,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.970d316e.chunk.js",
     "static/css/main.383d5883.chunk.css",
-    "static/js/main.428ad511.chunk.js"
+    "static/js/main.d82f3322.chunk.js"
   ]
 }
