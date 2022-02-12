@@ -11,7 +11,7 @@ const Project = ({ id, title, img, url, type, desc }) => {
       <article
         ref={target}
         className={
-          id < 10 && id > 6
+          id < 11 && id > 7
             ? type + " btn-project js-project"
             : type + " btn-project"
         }

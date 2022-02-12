@@ -56,7 +56,7 @@ const App = () => {
   return (
     <AppProvider>
       <Net />
-      <section style={{ marginTop: "783px" }}>
+      <section style={{ marginTop: "720px" }}>
         <About />
         <Projects />
         <Contact />

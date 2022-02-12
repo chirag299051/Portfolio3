@@ -19,8 +19,10 @@ import fire from "./assets/fire.png";
 import google from "./assets/google.png";
 import redux from "./assets/redux.png";
 import npm from "./assets/npm.png";
+import next from "./assets/next.png";
 
 import movieDBv2 from "./assets/movieDB-v2.png";
+import movie3 from "./assets/movie3.png";
 import budget from "./assets/budget.PNG";
 import movie from "./assets/movie.PNG";
 import drum from "./assets/drum.PNG";
@@ -34,24 +36,24 @@ import weather from "./assets/weather.jpg";
 
 export const skills = [
   { id: 0, name: "React", img: react },
-  { id: 1, name: "Angular", img: angular },
-  { id: 2, name: "HTML", img: html },
-  { id: 3, name: "CSS", img: css },
-  { id: 4, name: "Bootstrap", img: bootstrap },
-  { id: 5, name: "Javascript", img: js },
-  { id: 6, name: "ES6", img: es6 },
-  { id: 7, name: "Typescript", img: ts },
-  { id: 8, name: "jQuery", img: jquery },
-  { id: 9, name: "Node js", img: node },
-  { id: 10, name: "Ionic", img: ionic },
-  { id: 10, name: "Redux", img: redux },
-  { id: 11, name: "npm", img: npm },
-  { id: 12, name: "REST API", img: rest },
-  { id: 13, name: "Github", img: github },
-  { id: 14, name: "Firebase", img: fire },
-  { id: 15, name: "Google Cloud Platform", img: google },
-  { id: 16, name: "MySQL", img: mysql },
-  { id: 17, name: "MongoDB", img: mongodb },
+  { id: 1, name: "Redux", img: redux },
+  { id: 2, name: "Next.js", img: next },
+  { id: 3, name: "Angular", img: angular },
+  { id: 4, name: "HTML", img: html },
+  { id: 5, name: "CSS", img: css },
+  { id: 6, name: "Bootstrap", img: bootstrap },
+  { id: 7, name: "Javascript", img: js },
+  { id: 8, name: "ES6", img: es6 },
+  { id: 9, name: "Typescript", img: ts },
+  { id: 10, name: "jQuery", img: jquery },
+  { id: 11, name: "Node js", img: node },
+  { id: 12, name: "Ionic", img: ionic },
+  { id: 13, name: "npm", img: npm },
+  { id: 14, name: "Github", img: github },
+  { id: 15, name: "Firebase", img: fire },
+  { id: 16, name: "Google Cloud Platform", img: google },
+  { id: 17, name: "MySQL", img: mysql },
+  { id: 18, name: "MongoDB", img: mongodb },
   // { id: 18, name: "WordPress", img: wp },
   // { id: 19, name: "PHP", img: php },
 ];
@@ -59,6 +61,14 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: "MovieDB-v3",
+    img: movie3,
+    url: "https://chirag299051.github.io/movieDB-v3/",
+    type: "project",
+    desc: "Movie database app. Tech: React, Firebase",
+  },
+  {
+    id: 1,
     title: "MovieDB-v2",
     img: movieDBv2,
     url: "https://chirag299051.github.io/movieDB-v2/",
@@ -67,7 +77,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Weather App",
     img: weather,
     url: "https://chirag299051.github.io/weather-app/",
@@ -75,7 +85,7 @@ export const projects = [
     desc: "Get weather, news and covid data all around the world. Tech: React, Google Cloud Platform",
   },
   {
-    id: 2,
+    id: 3,
     title: "JS Drum Kit",
     img: drum,
     url: "https://chirag299051.github.io/JS-Drum-Kit/",
@@ -83,7 +93,7 @@ export const projects = [
     desc: "Use keyboard/touch to play drum. Tech: Javascript",
   },
   {
-    id: 3,
+    id: 4,
     title: "movieDB",
     img: movie,
     url: "https://chirag299051.github.io/movieDb/",
@@ -91,7 +101,7 @@ export const projects = [
     desc: "Simple Movie info app. Tech: Ionic 4, Angular 7, cordova, rxjs",
   },
   {
-    id: 4,
+    id: 5,
     title: "Budget App",
     img: budget,
     url: "https://chirag299051.github.io/The-Budget-App/",
@@ -99,7 +109,7 @@ export const projects = [
     desc: "App to calculate yearly budget. Tech: Javascript, ES6",
   },
   {
-    id: 5,
+    id: 6,
     title: "Gmart",
     img: gmart,
     url: "https://gmart-c.firebaseapp.com/",
@@ -107,9 +117,9 @@ export const projects = [
     desc: "Ecommerce app - Grocery Mart. Tech: Angular 7, Firebase, rxjs, Bootstrap",
   },
   {
-    id: 6,
-    title: "Ice And Fire",
+    id: 7,
     img: got,
+    title: "Ice And Fire",
     url: "https://chirag299051.github.io/got/",
     type: "project",
     desc: "Get all the info from the book of Ice and Fire. Tech: Angular 4, Bootstrap",
@@ -123,7 +133,7 @@ export const projects = [
   //   desc: "Get Countries info from a RESTful API. Tech: Angular 4, Bootstrap",
   // },
   {
-    id: 7,
+    id: 8,
     title: "JS Calculator",
     img: calc,
     url: "https://chirag299051.github.io/JS-Calculator/",
@@ -131,7 +141,7 @@ export const projects = [
     desc: "Javascript",
   },
   {
-    id: 8,
+    id: 9,
     title: "JS Clock",
     img: clock,
     url: "https://chirag299051.github.io/JS-Clock/",
@@ -139,7 +149,7 @@ export const projects = [
     desc: "Javascript",
   },
   {
-    id: 9,
+    id: 10,
     title: "jQuery To-Do List",
     img: todo,
     url: "https://chirag299051.github.io/To-Do-List/",
